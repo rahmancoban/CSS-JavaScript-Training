@@ -1,0 +1,158 @@
+/*---------------------Header---------------------*/
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/*----------------------Exam and score---------------------*/
+
+#examresult {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+#midterm {
+  margin: 5px 25px;
+  padding: 5px 3px;
+}
+#final {
+  margin: 5px 25px;
+  padding: 5px 3px;
+}
+.btn-note {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 25px;
+  font-weight: bold;
+  padding: 3px 4px;
+  background-color: rgb(198, 138, 253);
+}
+
+/*----------------------What day?---------------------*/
+#dayresult {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 25px;
+  font-weight: bold;
+}
+#daynum {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  text-align: left;
+  margin: 5px 25px;
+  padding: 5px 3px;
+}
+.btn-day {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 5px;
+  font-weight: bold;
+  padding: 3px 4px;
+  background-color: rgb(138, 253, 138);
+}
+
+/*----------------------Arrays-Loop----------------------*/
+#langresult {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 25px;
+  font-weight: bold;
+}
+.btn-loop {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 25px;
+  font-weight: bold;
+  padding: 3px 4px;
+  background-color: rgb(253, 207, 138);
+}
+
+/*----------------------factorial----------------------*/
+
+#dgtresult {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 25px;
+  font-weight: bold;
+}
+#getanumber {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  text-align: left;
+  margin: 5px 25px;
+  padding: 5px 3px;
+}
+.btn-dgt {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 5px;
+  font-weight: bold;
+  padding: 3px 4px;
+  background-color: rgb(253, 138, 147);
+}
+
+/*----------------------typeof---------------------*/
+#typof {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+/*----------------------locations---------------------*/
+#locations {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+/*----------------------Show-Hide---------------------*/
+.btn-showhide {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 155px;
+  margin-bottom: 100px;
+  font-weight: bold;
+  padding: 3px 4px;
+  background-color: rgb(138, 188, 253);
+}
+
+/*----------------------Switch Colors---------------------*/
+
+#result {
+  border: 1px solid rgb(238, 152, 152);
+  padding: 20px;
+  margin-bottom: 12px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+#btn {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(252, 221, 165);
+  font-size: 16px;
+  text-align: center;
+  margin-left: 155px;
+  margin-bottom: 100px;
+  font-weight: bold;
+  padding: 3px 4px;
+  background-color: rgb(105, 105, 105);
+}

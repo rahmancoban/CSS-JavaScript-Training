@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <!-----------------------Header---------------------->
+    <h1>
+      JavaScript Training
+    </h1>
+
+    <!-----------------------Exam and score---------------------->
+    <p id="examresult"></p>
+    <p><input type="text" id="midterm" placeholder="Enter Midterm Score.."/>
+    </p>
+    <p><input type="text" id="final" placeholder="Enter Final Score.."/>
+    </p>
+    <button class="btn-note" type="button" onclick="noteResult()">Exam Result</button>
+
+    <!-----------------------What day?---------------------->
+    <p id="dayresult"></p><input type="text" id="daynum" placeholder="A digit between '0-6'"/>
+    <button class="btn-day" type="button" onclick="showday()">What Day?</button>
+
+    <!-----------------------Arrays-Loop---------------------->
+    <p id="langresult"></p>
+    <button class="btn-loop" type="button" onclick="showlang()">Start Loop</button>
+
+    <!-----------------------factorial---------------------->
+
+    <p id="dgtresult"></p><input type="text" id="getanumber" placeholder="Enter a number..."/>
+    <button class="btn-dgt" type="button" onclick="dgtshow()">Calculate</button
+    ><br /><br /><br />
+
+    <!-----------------------typeof---------------------->
+    <h2 style="margin-left: 25px">How to Find type of data</h2>
+    <p id="typof"></p>
+    <br />
+
+    <!-----------------------locations---------------------->
+    <h2 style="margin-left: 25px">How to Find Locations</h2>
+    <p id="locations"></p>
+
+    <!-----------------------Show-Hide---------------------->
+    <p><img src="lamp.png" alt="lamp" width="250" height="220" id="lamp"></p>
+    <button class="btn-showhide" type="button" onclick="javascript:showHide()">Show/Hide</button>
+
+     <!-----------------------Switch Colors---------------------->
+    <p><div id="result" >Click the button and change the color between Red and Green</div></p>
+    <button type="button" id="btn" >Switch The Color</button>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
